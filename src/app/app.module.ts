@@ -4,22 +4,22 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
-import { RecipreDetailComponent } from './recipes/recipre-detail/recipre-detail.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
-import { ShopingListComponent } from './shoping-list/shoping-list.component';
-import { ShopingEditComponent } from './shoping-list/shoping-edit/shoping-edit.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     RecipesComponent,
-    RecipreDetailComponent,
+    RecipeDetailComponent,
     RecipeItemComponent,
     RecipeListComponent,
-    ShopingListComponent,
-    ShopingEditComponent
+    ShoppingListComponent,
+    ShoppingEditComponent
   ],
   imports: [
     BrowserModule
